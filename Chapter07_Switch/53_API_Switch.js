@@ -1,0 +1,11 @@
+let responseCode = 4004;
+switch (responseCode) {
+    case 200:
+        console.log("200 Ok");
+        break;
+    case 404:
+        console.log("404 Not found!");
+        break;
+    default:
+        console.log("Not status code match");
+}

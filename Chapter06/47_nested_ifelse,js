@@ -1,0 +1,10 @@
+let age =25;
+if(age > 18){
+console.log("Eligible for Goa");
+ if(age > 25){
+    console.log("Eligible for Drink");
+ }      
+ else{
+    console.log("Not Eligible for Drink");
+ }      
+}
